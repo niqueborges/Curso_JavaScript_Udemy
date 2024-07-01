@@ -1,3 +1,5 @@
+// Tipos de dados
+
 console.log('Javascrip Funcionando');
 
 
@@ -10,9 +12,25 @@ const price = 30;
 // price = 20;
 console.log(price);
 
-let itemNames = 'Camisa';
+// Objects
+
+let itemName = 'Camisa';
 let itemPrice = 30;
 let itemAvailable = true;
 let itemColor = 'Red';
 
-console.log(typeof itemPrice);
+let camisa = {
+    itemName: 'Camisa',
+    itemPrice: 30,
+    itemAvailableavailable: true,
+    itemColor: 'Red'
+};
+
+camisa.itemColor = 'Blue';
+
+console.log(camisa);
+
+// Arrays
+
+
+
