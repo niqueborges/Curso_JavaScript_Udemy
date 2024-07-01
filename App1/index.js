@@ -32,5 +32,11 @@ console.log(camisa);
 
 // Arrays
 
+let colors = ['Red', 'Blue', 'Green', 'Yellow'];
+colors[0] = 'Pink';
+console.log(colors);
+
+// Functions 
+
 
 
