@@ -39,3 +39,5 @@ console.log(wRegex2.test('123'));
 console.log(wRegex2.test('123sad'));
 
 
+
+
