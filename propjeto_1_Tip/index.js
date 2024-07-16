@@ -8,4 +8,8 @@ function update() {
     let billTotal = bill + tipValue;
     let billEach = billTotal / split;
 
+    document.getElementById("tipPercent").innerHTML = tipPercernt + "%";
+    document.getElementById("tipValue").innerHTML = '$' + tipValue;
+    
+
 }
